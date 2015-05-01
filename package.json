@@ -1,0 +1,15 @@
+{
+  "name": "rethinkdb-example",
+  "version": "1.0.0",
+  "description": "Example project, how use rethinkdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dimitar Danailov",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "rethinkdb": "^2.0.0"
+  }
+}
