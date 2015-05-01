@@ -1,5 +1,7 @@
 RethinkDB Example Project
 
+Course: [RethinkDB Fundamentals](http://www.pluralsight.com/courses/rethinkdb-fundamentals)
+
 ## Install database library
 
 ```bash
