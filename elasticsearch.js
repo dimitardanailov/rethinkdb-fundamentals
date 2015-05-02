@@ -10,7 +10,7 @@ client.search({
   body: {
     query: {
       match: {
-        body: 'John'
+        body: 'John     '
       }
     }
   }
