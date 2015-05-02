@@ -24,7 +24,7 @@ rethinkdb -n Harry --port-offset 1 --join localhost:29015 -t asia --cluster-port
 
 ## Mac os x elasticsearch installation
 
-Source: [Elastic search installation](http://www.pluralsight.com/courses/rethinkdb-fundamentals)
+Source: [Elastic search installation](http://stackoverflow.com/questions/22850247/installing-elasticsearch-on-osx-mavericks/22855889#22855889)
 
 You should really consider using [brew](http://brew.sh/). It's a great tool that will take care of dependencies, version control and much more.
 
@@ -43,13 +43,17 @@ After that follow elasticsearch instructions :
 
 > To have launchd start elasticsearch at login:
 
-```ln -sfv /usr/local/opt/elasticsearch/*.plist ~/Library/LaunchAgents```
+```bash
+ln -sfv /usr/local/opt/elasticsearch/*.plist ~/Library/LaunchAgents
+```
 
 2.
 
 > Then to load elasticsearch now:
 
-```launchctl load ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist```
+```bash
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.elasticsearch.plist
+```
 
 > Or, if you don't want/need launchctl, you can just run:
 
